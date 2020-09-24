@@ -41,7 +41,7 @@ dependencies {
 def siteUrl = 'https://github.com/yanyi5496/library'      // Homepage URL of the library
 def gitUrl = 'https://github.com/yanyi5496/library.git'   // Git repository URL
 group = "com.yanyi.library"                                          // Maven Group ID for the artifact
-version = "1.3.0"
+version = "1.4.0"
 
 Properties properties = new Properties()
 properties.load(project.rootProject.file('local.properties').newDataInputStream())
