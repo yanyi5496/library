@@ -1,8 +1,6 @@
 package com.yanyi.library.util;
 
 
-import com.yanyi.library.util.Constant;
-
 /**
  * @author bonan
  * 中电万维接口地址集合

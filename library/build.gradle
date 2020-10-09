@@ -37,6 +37,7 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.2.0'
     implementation 'com.github.yanyi5496:openutil:1.0'
     implementation 'com.google.code.gson:gson:2.8.6'
+    
     // 网络框架
     implementation 'com.lzy.net:okgo:3.0.4'
     testImplementation 'junit:junit:4.12'
@@ -49,7 +50,7 @@ dependencies {
 def siteUrl = 'https://github.com/yanyi5496/library'      // Homepage URL of the library
 def gitUrl = 'https://github.com/yanyi5496/library.git'   // Git repository URL
 group = "com.yanyi.library"                                          // Maven Group ID for the artifact
-version = "1.7.1"
+version = "1.7.3"
 
 Properties properties = new Properties()
 properties.load(project.rootProject.file('local.properties').newDataInputStream())
